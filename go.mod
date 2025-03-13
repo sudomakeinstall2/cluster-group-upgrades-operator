@@ -1,8 +1,7 @@
 module github.com/openshift-kni/cluster-group-upgrades-operator
 
 go 1.22.0
-
-toolchain go1.22.4
+toolchain go1.23.7
 
 require (
 	github.com/go-bindata/go-bindata v3.1.2+incompatible
@@ -27,7 +26,7 @@ require (
 	github.com/onsi/ginkgo/v2 v2.20.1
 	github.com/openshift-kni/lifecycle-agent v0.0.0-20240624133429-f23bb798197c
 	github.com/stolostron/cluster-lifecycle-api v0.0.0-20240109072430-f5fe6043d1f8
-	golang.org/x/sys v0.28.0
+	golang.org/x/sys v0.30.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/code-generator v0.29.5
 	open-cluster-management.io/config-policy-controller v0.12.0
@@ -76,11 +75,11 @@ require (
 	go.uber.org/zap v1.26.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
 	golang.org/x/mod v0.20.0 // indirect
-	golang.org/x/net v0.30.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
 	golang.org/x/oauth2 v0.20.0 // indirect
-	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/term v0.25.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	golang.org/x/tools v0.24.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
