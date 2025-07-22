@@ -4,6 +4,7 @@ metadata:
   annotations:
     alm-examples: '[]'
     capabilities: Basic Install
+    containerImage: quay.io/openshift-kni/cluster-group-upgrades-operator
     features.operators.openshift.io/cnf: "false"
     features.operators.openshift.io/cni: "false"
     features.operators.openshift.io/csi: "false"
@@ -18,6 +19,9 @@ metadata:
     operators.openshift.io/infrastructure-features: '["disconnected", "proxy-aware"]'
     operators.openshift.io/valid-subscription: '["OpenShift Container Platform", "OpenShift
       Platform Plus"]'
+    provider: Red Hat
+    repository: https://github.com/openshift-kni/cluster-group-upgrades-operator
+    support: Red Hat
   name: cluster-group-upgrades-operator.v0.0.0
   namespace: placeholder
 spec:
